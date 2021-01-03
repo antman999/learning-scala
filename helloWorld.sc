@@ -11,9 +11,4 @@
 //*********
 // println === console.log 
 
-// val vs var 
-// A val in scala is similar to const, Once you declare it you cant change its value 
-
-// A var in scala is similar to a let in JS where you can can change its contents
-
 
