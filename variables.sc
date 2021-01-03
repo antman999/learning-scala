@@ -1,3 +1,4 @@
+
 //  1 + 2 
 //  val res1: Int = 3
 
@@ -10,5 +11,17 @@
 
 //*********
 // println === console.log 
+
+
+var name = "Anthony"
+
+println(name)
+//Anthony
+ 
+name = "Cocoa"
+
+println(name)
+//Cocoa
+
 
 
