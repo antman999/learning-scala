@@ -44,7 +44,7 @@ def: Starts a function "Defines"
 min: This is the name of the function (can be anything)
 (): Next go the parameters what the function takes in. 
 num1,num2: Are both parameters required by the function followed by a : which then has what the parameters are such as (Int, String...)
-:In ={} : This is what the function results type needs to be followed by the body of the function
+:Int ={} : This is what the function results type needs to be followed by the body of the function
 
 def min( num1:Int, num2:Int): Int = {
   if(num1 > num2) num2
