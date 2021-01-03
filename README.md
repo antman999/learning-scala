@@ -40,12 +40,19 @@ Kem
 
 ##  Functions
 ```
-def: Starts a function "Defines"
-min: This is the name of the function (can be anything)
-(): Next go the parameters what the function takes in. 
-num1,num2: Are both parameters required by the function followed by a : which then has what the parameters are such as (Int, String...)
-:Int ={} : This is what the function results type needs to be followed by the body of the function
+1: Starts a function "Defines"
 
+2: This is the name of the function (can be anything)
+
+3: Next go the parameters what the function takes in. 
+
+4: Are both parameters required by the function followed by a : which then has what the parameters are such as (Int, String...).
+
+5: This is what the function results type needs to be
+
+6: Function body
+
+ 1   2  3          4            5   6
 def min( num1:Int, num2:Int): Int = {
   if(num1 > num2) num2
   else num1 
