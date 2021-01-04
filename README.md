@@ -100,4 +100,4 @@ under the hood we are doing a .apply like so
 val names = Array.apply("0", "1", "2")
 
 ```
-
+2. Another thing to keep in mind is once init you cannot change an arrays length. You could change the type of array(Int, String...). 
