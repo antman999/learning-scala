@@ -10,6 +10,21 @@
 2. Concise - Scala code is very small compared to java code. A lot of the boilerplate code from java is optional.  
 3. High-level - it lets manage complexity by letting you raise the level of abstraction.
 
+## Small things to know
+* All operations in scala a method calls. 
+```
+doing 1 + 2 -> 3 
+is actually doing this under the hood 
+(1). + (2) -> 3 
+```
+* Arrays in scala are accessed via parentheses unlike javascript where you can do [] and accessing an array is also a method call.
+```
+names[0] - javascript
+names(0) - scala
+
+```
+* If you have an array that was initialized with **val** you can still change the contents of the array. 
+
 ##  val vs. var? 
 * A **val**  in scala is similar to **const** in JS, Once you declare it you cant change its value 
 ```
@@ -59,3 +74,19 @@ def min( num1:Int, num2:Int): Int = {
 }
 
 ```
+
+## Loops
+> loops in scala are similar to JS loops
+
+## Arrays
+> Arrays in scala are method calls
+
+1. To initialize an array you can do one of 2 ways (From what I have seen )
+```
+val names = new Array[String](3)
+   1         2   3     4      5
+1. variable name
+2. New instance of array 
+
+```
+
