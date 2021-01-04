@@ -1,19 +1,3 @@
-// var i = 0 
-// while(i < args.length){
-//   println(args(i))
-//   i+=1
-// }
-
-// var y = 0
-// while( y < args.length){
-//   if( i !=  0){
-//     print(" ")
-//   }
-//   print(args(y))
-//   y +=1
-// }
-
-
 //Q loop over array of strings
 
 val greetStrings = new Array[String](3)
@@ -32,6 +16,16 @@ while( i < greetStrings.length){
   print(greetStrings(i))
   i += 1
 }
+
+//The under the hood way to do this can also be done like so 
+
+for(i <- 0.to(2))
+ print(greetStrings.apply(i))
+//Since everything is a method call in an object we could do this much harder way :(
+
+
+
+
 // Answer -> 'Hello world'
 
 

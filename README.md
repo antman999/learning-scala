@@ -11,7 +11,7 @@
 3. High-level - it lets manage complexity by letting you raise the level of abstraction.
 
 ## Small things to know
-* All operations in scala a method calls. 
+* All operations in scala are method calls. 
 ```
 doing 1 + 2 -> 3 
 is actually doing this under the hood 
@@ -86,7 +86,18 @@ def min( num1:Int, num2:Int): Int = {
 val names = new Array[String](3)
    1         2   3     4      5
 1. variable name
-2. New instance of array 
+2. New instance 
+3. What the instance is 
+4. What our array will contain 
+5. Allocated size
+
+BUT THERE IS A BETTER WAY TO DO IT 
+
+val names = Array("0", "1", "2") //best way
+
+under the hood we are doing a .apply like so
+
+val names = Array.apply("0", "1", "2")
 
 ```
 
