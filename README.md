@@ -101,3 +101,7 @@ val names = Array.apply("0", "1", "2")
 
 ```
 2. Another thing to keep in mind is once init you cannot change an arrays length. You could change the type of array(Int, String...). 
+
+## Lists Vs. Arrays
+> An Array is mutable, meaning you can change the values of each index, while a List (by default) is immutable, meaning that a new list is created every time you do a modification. In most cases it is a more "functional" style to work with immutable datatypes
+

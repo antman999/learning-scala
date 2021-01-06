@@ -28,6 +28,21 @@ for(i <- 0.to(2))
 
 // Answer -> 'Hello world'
 
+var name = "ANTHONY"
+
+for (i <- 0 until name.length){
+  println(name(i))
+}
+
+//Result
+//A
+//N
+//T
+//H
+//O
+//N
+//Y
+
 
 
 
