@@ -111,5 +111,16 @@ val names = Array.apply("0", "1", "2")
 ```
 val addme = 3 :: listme
 ```
- 
 
+## Tuples
+> Tuples are like list where they are immutable but the biggest difference is that unlike list and arrays you can have integers and strings as data. 
+
+```
+//To create a new tuple you just 
+
+var random = ("Puppies", 50)
+
+//To access the objects in a tuple you have to use a period and underscore.
+println(random._1) -> "Puppies"
+println(random._2) -> 50
+```
