@@ -16,11 +16,17 @@ def greet() = println("hello world")
 
 // Q - Format a userinput into a phone number 
 def formatNum(num:String): Unit ={
-  var formattedNum = "("
-  var check = ""
+  var check = "("
   var i = 0 
   while( i < num.length){
-    if(num.isNumeric)
+   if(i == 3 ){
+     check += ") "
+   }
+    if(i == 6 ){
+     check += "-"
+   }
+   check += num(i)
+   i += 1
   }
-  //Work in progress 
+  println(check)
 }

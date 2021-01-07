@@ -124,3 +124,26 @@ var random = ("Puppies", 50)
 println(random._1) -> "Puppies"
 println(random._2) -> 50
 ```
+## Sets and maps
+> sets and maps are also immutable but using a library you can make both of these DS mutable. 
+
+```
+//Immutable 
+var uniquePetNames = Set("Cocoa","Bob","Ant")
+uniquePetNames += "Georgie"
+println(uniquePetNames.contains("Tom"))
+
+```
+* Here we are creating a new set like so `uniquePetNames = uniquePetNames + "Georgie"`
+
+* To use the mutable set we will need to import the mutable collection 
+
+```
+//mutable 
+import scala.collection.mutable
+
+var uniquePetNames = Set("Cocoa","Bob","Ant")
+uniquePetNames += "Georgie"
+println(uniquePetNames.contains("Tom"))
+
+```
