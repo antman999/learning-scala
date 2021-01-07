@@ -105,3 +105,11 @@ val names = Array.apply("0", "1", "2")
 ## Lists Vs. Arrays
 > An Array is mutable, meaning you can change the values of each index, while a List (by default) is immutable, meaning that a new list is created every time you do a modification. In most cases it is a more "functional" style to work with immutable datatypes
 
+* The most common method used on list is ":::" called Cons this adds a new element to the beginning of a list. Keep in mind this is costly on time since we are adding to the start and will have to re-index every other value.
+
+* When using Cons keep in mind we have to use it on the left side. Like so 
+```
+val addme = 3 :: listme
+```
+ 
+
