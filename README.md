@@ -127,6 +127,7 @@ println(random._2) -> 50
 ## Sets and maps
 > sets and maps are also immutable but using a library you can make both of these DS mutable. 
 
+#### Set
 ```
 //Immutable 
 var uniquePetNames = Set("Cocoa","Bob","Ant")
@@ -146,4 +147,21 @@ var uniquePetNames = Set("Cocoa","Bob","Ant")
 uniquePetNames += "Georgie"
 println(uniquePetNames.contains("Tom"))
 
+```
+
+#### Maps or Object in JS 
+> This is also like a set because the standard way is not mutable but we can import a library to have mutable maps.
+
+```
+//mutable 
+import scala.collection.mutable
+
+var addresses = mutable.Map[Int, String]()
+
+//With a map you can indicate via square brackets if the keys and values will be integers or strings. 
+
+
+addresses+= (1 -> "84493 Drive California")
+addresses+= (2 -> "Oakland drive")
+addresses+= (3 -> "Rodeo St")
 ```
